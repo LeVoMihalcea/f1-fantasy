@@ -20,9 +20,8 @@ import { onMounted, ref } from 'vue';
 
 const drivers = ref([])
 onMounted(async () => {
-    const response = await fetch('http://127.0.0.1:5000/drivers') 
+    const response = await fetch('/api/drivers') 
     drivers.value = await response.json()
-    console.log(drivers)
 })
 </script>
 
