@@ -1,0 +1,104 @@
+{
+  "drivers": [
+    {
+      "name": "Lewis Hamilton",
+      "speed_rating": 0.85,
+      "team": "Mercedes"
+    },
+    {
+      "name": "Max Verstappen",
+      "speed_rating": 0.98,
+      "team": "Red Bull Racing"
+    },
+    {
+      "name": "Valtteri Bottas",
+      "speed_rating": 0.50,
+      "team": "Alfa Romeo"
+    },
+    {
+      "name": "Lando Norris",
+      "speed_rating": 0.70,
+      "team": "McLaren"
+    },
+    {
+      "name": "Sergio Perez",
+      "speed_rating": 0.96,
+      "team": "Red Bull Racing"
+    },
+    {
+      "name": "Charles Leclerc",
+      "speed_rating": 0.93,
+      "team": "Ferrari"
+    },
+    {
+      "name": "Carlos Sainz Jr.",
+      "speed_rating": 0.87,
+      "team": "Ferrari"
+    },
+    {
+      "name": "Oscar Piastri",
+      "speed_rating": 0.30,
+      "team": "McLaren"
+    },
+    {
+      "name": "Pierre Gasly",
+      "speed_rating": 0.75,
+      "team": "Alpine"
+    },
+    {
+      "name": "Esteban Ocon",
+      "speed_rating": 0.80,
+      "team": "Alpine"
+    },
+    {
+      "name": "Fernando Alonso",
+      "speed_rating": 0.91,
+      "team": "Aston Martin"
+    },
+    {
+      "name": "Nick DeVries",
+      "speed_rating": 0.60,
+      "team": "Alpha Tauri"
+    },
+    {
+      "name": "Lance Stroll",
+      "speed_rating": 0.81,
+      "team": "Aston Martin"
+    },
+    {
+      "name": "George Russell",
+      "speed_rating": 0.83,
+      "team": "Mercedes"
+    },
+    {
+      "name": "Logan Sargent",
+      "speed_rating": 0.35,
+      "team": "Williams"
+    },
+    {
+      "name": "Guanyu Zhou",
+      "speed_rating": 0.45,
+      "team": "Alfa Romeo"
+    },
+    {
+      "name": "Alex Albon",
+      "speed_rating": 0.75,
+      "team": "Williams"
+    },
+    {
+      "name": "Nico Hulkenberg",
+      "speed_rating": 0.65,
+      "team": "Haas"
+    },
+    {
+      "name": "Kevin Magnussen",
+      "speed_rating": 0.65,
+      "team": "Haas"
+    },
+    {
+      "name": "Yuki Tsunoda",
+      "speed_rating": 0.60,
+      "team": "Alpha Tauri"
+    }
+  ]
+}

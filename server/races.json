@@ -1,0 +1,103 @@
+{
+  "races": [
+    {
+      "name": "Melbourne Grand Prix Circuit",
+      "fastest_lap": "1:24.125",
+      "laps": 58
+    },
+    {
+      "name": "Bahrain International Circuit",
+      "fastest_lap": "1:31.447",
+      "laps": 57
+    },
+    {
+      "name": "Miami Grand Prix",
+      "fastest_lap": "1:31.361",
+      "laps": 56
+    },
+    {
+      "name": "Circuit de Barcelona-Catalunya",
+      "fastest_lap": "1:18.149",
+      "laps": 66
+    },
+    {
+      "name": "Monaco Street Circuit",
+      "fastest_lap": "1:14.260",
+      "laps": 78
+    },
+    {
+      "name": "Baku City Circuit",
+      "fastest_lap": "1:43.009",
+      "laps": 51
+    },
+    {
+      "name": "Circuit Paul Ricard",
+      "fastest_lap": "1:32.740",
+      "laps": 53
+    },
+    {
+      "name": "Red Bull Ring",
+      "fastest_lap": "1:05.619",
+      "laps": 71
+    },
+    {
+      "name": "Silverstone Circuit",
+      "fastest_lap": "1:27.097",
+      "laps": 52
+    },
+    {
+      "name": "Hungaroring",
+      "fastest_lap": "1:16.627",
+      "laps": 70
+    },
+    {
+      "name": "Spa-Francorchamps",
+      "fastest_lap": "1:46.286",
+      "laps": 44
+    },
+    {
+      "name": "Circuit Zandvoort",
+      "fastest_lap": "1:11.097",
+      "laps": 72
+    },
+    {
+      "name": "Monza Circuit",
+      "fastest_lap": "1:21.046",
+      "laps": 53
+    },
+    {
+      "name": "Sochi Autodrom",
+      "fastest_lap": "1:37.030",
+      "laps": 53
+    },
+    {
+      "name": "Marina Bay Street Circuit",
+      "fastest_lap": "1:41.905",
+      "laps": 61
+    },
+    {
+      "name": "Suzuka Circuit",
+      "fastest_lap": "1:30.983",
+      "laps": 53
+    },
+    {
+      "name": "Circuit of the Americas",
+      "fastest_lap": "1:36.169",
+      "laps": 56
+    },
+    {
+      "name": "Autódromo Hermanos Rodríguez",
+      "fastest_lap": "1:18.741",
+      "laps": 71
+    },
+    {
+      "name": "Interlagos Circuit",
+      "fastest_lap": "1:10.540",
+      "laps": 71
+    },
+    {
+      "name": "Jeddah Street Circuit",
+      "fastest_lap": "1:24.24",
+      "laps": 50
+    }]
+}
