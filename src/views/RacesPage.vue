@@ -22,7 +22,7 @@ import {onMounted, ref} from 'vue'
 
 const races = ref([])
 onMounted(async()=>{
-    const response = await fetch('http://127.0.0.1:5000/races')
+    const response = await fetch('/api/races')
     races.value = await response.json()
     console.log(races)
 })
