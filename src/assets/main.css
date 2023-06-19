@@ -1,35 +1,99 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
+/* Global Styles */
+body {
+  background-color: #292929;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1em;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 3px #ffffff;
+}
+
+button {
+  background-color: #ffffff;
+  color: #292929;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Code */
+code {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 2px 4px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Containers */
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+  padding: 20px;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
