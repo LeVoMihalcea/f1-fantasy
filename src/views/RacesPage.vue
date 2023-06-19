@@ -11,21 +11,28 @@
             <td>{{ race.id }}</td>
             <td>{{ race.name }}</td>
             <td>{{ race.laps }}</td>
-            <td>{{ race.fastest_lap }}</td>
+            <td>{{ computeFastestLapTime(race.fastest_lap) }}</td>
         </tr>
     </table>
 </template>
 
 
-<script setup>
+<script setup lang="ts">
 import {onMounted, ref} from 'vue'
+import {formatDateToRaceTime} from '@/utils/timeUtils'
+import type { Ref } from 'vue/dist/vue.js';
 
-const races = ref([])
+const races: Ref<any[]> = ref([])
+
 onMounted(async()=>{
     const response = await fetch('/api/races')
     races.value = await response.json()
     console.log(races)
 })
+
+function computeFastestLapTime(fastestLapTime: string): string{
+    return formatDateToRaceTime(new Date(fastestLapTime));
+}
 </script>
 
 
